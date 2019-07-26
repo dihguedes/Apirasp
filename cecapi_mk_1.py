@@ -35,8 +35,7 @@ while True:
     
 try:
     status= json.loads(requests.get(serverApi).text)
-    print(status)
-       
+           
 except:
     wait()
             
