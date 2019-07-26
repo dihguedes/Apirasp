@@ -1,8 +1,0 @@
-configurar ip fixo no pi
-Para proceder a esta configuração abrimos o ficheiro /etc/dhcpcd.conf e indicamos os seguintes parâmetros:
-
-interface eth0
-static routers= "ip do Gateway"
-static domain_search="Dominio se houver "
-static domain_name_servers="Dns"
-static ip_address="IP Statico do Raspberry pi"
